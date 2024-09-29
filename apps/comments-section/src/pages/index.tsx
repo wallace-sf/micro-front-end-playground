@@ -48,6 +48,7 @@ export default function Home() {
                   alt="Michael Gough"
                   width={24}
                   height={24}
+                  priority
                 />
                 Michael Gough
               </p>
@@ -150,6 +151,7 @@ export default function Home() {
                   alt="Jese Leos"
                   width={24}
                   height={24}
+                  priority
                 />
                 Jese Leos
               </p>
@@ -249,6 +251,7 @@ export default function Home() {
                   alt="Bonnie Green"
                   width={24}
                   height={24}
+                  priority
                 />
                 Bonnie Green
               </p>
@@ -349,6 +352,7 @@ export default function Home() {
                   alt="Helene Engels"
                   width={24}
                   height={24}
+                  priority
                 />
                 Helene Engels
               </p>
