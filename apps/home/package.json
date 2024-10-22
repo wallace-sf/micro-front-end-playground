@@ -1,16 +1,15 @@
 {
-  "name": "comments-section",
+  "name": "home",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rm -rf .next;NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
+    "dev": "rm -rf .next;NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
     "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
-    "start": "NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_ENV=production next start -p 3001",
+    "start": "NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_ENV=production next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
-    "flowbite": "^2.5.2",
+    "@module-federation/nextjs-mf": "^8.6.0",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18"

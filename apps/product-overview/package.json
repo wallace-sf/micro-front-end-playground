@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "rm -rf .next; NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3002",
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_ENV=production next start -p 3002",
     "lint": "next lint"
   },
   "dependencies": {
+    "@module-federation/nextjs-mf": "^8.6.0",
     "classnames": "^2.5.1",
     "flowbite": "^2.5.2",
+    "next": "14.2.13",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
